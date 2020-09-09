@@ -1,0 +1,148 @@
+
+/*tardis blue according to https://www.color-hex.com/color-palette/16374
+almost black: 0, 6, 11
+Tardis Blue 0, 32, 60
+medium blue 0, 59, 111
+dusty blue 111, 142, 169
+light blue 166, 184, 199 
+Silver 192, 192, 192*/
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* For Navigation Bar- Sticky. With help from w3schools reference.*/
+#navbar{
+    background-color: rgba(0 32 60);
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    z-index: 1;
+
+   }
+
+   #navbar a{
+       float:left;
+       display: block;
+       color:white;
+       text-align: center;
+       padding:  15px;
+       text-decoration:none;
+   }
+   .sticky{
+       position: fixed;
+       top: 0;
+       width: 100%;
+   }
+   .sticky + .content{
+       padding-top: 60px;
+   }
+
+   h1{
+      font-family: 'Rock Salt', sans-serif;
+      font-size: 15px;
+      text-align: center;
+      color: white;
+     
+      background-color:rgba(0 59 111);
+   }
+/*Div Styling*/
+.image13, .image12, .image10, .image8, .image6, .image4, .image2{
+font-family: 'Rock Salt', sans-serif;
+font-size: 1.5em;
+text-align: left;
+color: white;
+padding: 5px;
+background-color:rgba(0 32 60);
+
+}
+.image13alt, .image11, .image9, .image7, .image5, .image3, .image1{
+    font-family: 'Rock Salt', sans-serif;
+    font-size: 1.5em;
+    text-align: right;
+    color: white;
+    padding: 5px;
+    background-color:rgba(0, 59, 111)
+    }
+h2{
+    font-family:'Rock Salt', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    color: white;
+    padding: 5px;
+}
+h2.right{
+    font-family:'Rock Salt', sans-serif;
+    font-size: 1.5em;
+    text-align: right;
+    color: white;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.75em;
+    text-align: left;
+    color: white;
+}
+p.right{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.75em;
+    text-align: right;
+    color: white;   
+}
+
+/*photo style and placement*/
+.image__img13, .image__img12, .image__img10, .image__img8, .image__img6, .image__img4, .image__img2 {
+    display: block;
+    float: left;
+    border: 3px solid white;
+    }
+.image__img13alt, .image__img11, .image__img9, .image__img7, .image__img5, .image__img3, .image__img1 {
+    display: block;
+    float: right;
+    border: 3px solid white;
+}
+
+.history, footer{
+    font-family:'Raleway', sans-serif;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+  }
+
+
+#spinOffsDescription, #historyp {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+   }
+div{
+    background-color: white;
+}
+
+/*back to top arrow button*/
+
+.gotopbutn
+{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+    right: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: rgba(0 6 11);
+    font-size: 40px;
+}
+/*Notes: Initial design used img without placement. I have decided to try flexbox moving forward.
+Updated plan. Decided to sketch out the layout instead of continuing in this fashion... The right way. */
+/*CSS Style Sheet- Code by Mrs.G-ood on GitHub
+for the purposes of demonstrating coding skills and practice. 
+All images are from Wikipedia and belong to their rightful owner.
+I do NOT express ownership to any images or informaiton provided 
+on this page.
+This application is not intended to go live.*/
